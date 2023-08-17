@@ -1,0 +1,187 @@
+h1{
+    text-align:center;
+    font-size:4.9vw;
+    color:rgb(255, 166, 0);
+    background-color: rgb(170, 15, 15);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.3em;
+   
+}
+.introduction{
+    width:49vw;
+    display: inline-block;
+}
+.pictures-table{
+    position:absolute;
+    display: inline-block;
+}
+.pictures-table thead{
+    font-size:1.7em;
+}
+.piuctures-table th{
+    font-size:1.4em;
+}
+table{
+    width:48vw;
+}
+table,th,td{
+    
+    border:1px solid black;
+    border-collapse:collapse;
+    text-align:center;
+}
+td img{
+    width:25%;
+    
+}
+img{
+    width:15vw;
+}
+h2{
+    text-align:left;
+    font-size:2.2em;
+}
+h3{
+    font-size:1.8em;
+    color:rgb(255, 0, 0)
+}
+h4{
+    font-size:1.4em;
+}
+h5{
+    font-size:1.2em;
+    text-decoration:underline;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+figure{
+    border:1px solid black;
+    width:20vw;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    margin:2%;
+}
+
+.biodiversity  p{
+    display:inline-block;
+    width:60vw;
+    
+}
+
+
+ .biodiversity img{
+    display: inline-block;
+    width:30vw;
+   
+}
+.biodiversity figure{
+    border:none;
+    width:30vw;
+}
+figcaption{
+    border:none;
+} 
+
+.politics figure{
+    width:25vw;
+    float:right;
+    border:none;
+}
+.politics img{
+    width:25vw;
+}
+.government figure{
+    width:32vw;
+    float:left;
+    border:0.8px solid grey;
+    background-color: rgb(227, 227, 227);
+}
+.government img{
+    width:27vw;
+    padding:5px;
+}
+.government table{
+    width:30vw;
+    float:right;
+    /* border:1px solid grey; */
+
+}
+.government th,td,tr{
+   
+    border-collapse:collapse;
+    border-bottom:1px solid black;
+}
+.government tr{
+    height:5vh;
+}
+/* .government tr:nth-child(even){
+    background-color: rgb(214, 213, 213);
+} */
+.states{
+    position: relative;
+}
+.states table{
+    display:inline-block;
+    width:45vw;
+}
+.states th{
+    position:sticky;
+    top:0;
+    width:40vw;
+}
+.states table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+
+    margin:auto;
+}
+.states th,td{
+    padding:5px;
+}
+.states th{
+    background-color: black;
+    color:white;
+    font-size:1.4em;
+}
+.states img{
+    position:absolute;
+    width:45vw;
+    margin-top:0;
+    margin-left:5vw;
+}
+.strategies>figure{
+    float:left;
+    width:25vw;
+}
+#airforce_in_paris{
+    float:right;
+    width:30vw;
+}
+.economy_table{
+    width:25%;
+    float:right;
+}
+.economy_table img{
+    width:100%;
+}
+.economy_table tr,td{
+    border:none;
+}
+.banglore{
+    width:45vw;
+    height:45vh;
+    float:left;
+}
+.banglore img{
+    
+    width:100%;
+}
+.banglore figcaption{
+    margin-top:3%;
+
+}
+.industries{
+    margin-top:15%;
+}
